@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    text-align: center;
+    font-size: 40px;
+}
+
+.head p{
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+}
+
+.midBox{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container button{
+    border: 0;
+    background-color: white;
+}
+
+.loadSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+.loadSection p{
+    margin-left: 15px;
+}
+
+.loadBar {
+    border: 15px solid #f3f3f3;
+    border-top: 15px solid #3498db;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.popup{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.popup p{
+    align-self: center;
+}
+
+.popup input{
+    width: max-content;
+    align-self: center;
+}
+
+.section{
+    margin-top: 30px;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.bottom{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bottom button{
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
